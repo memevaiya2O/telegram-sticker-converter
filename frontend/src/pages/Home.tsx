@@ -390,7 +390,7 @@ export default function Home() {
             </div>
 
             <div className="bg-secondary/50 rounded-lg p-4 text-xs text-muted-foreground leading-relaxed">
-              Output files are strictly encoded to meet Telegram's animated sticker requirements without alpha-channel clipping.
+              Output files are strictly encoded to meet Telegram's animated sticker requirements without alpha-channel clipping. Developered by Iɴꜰɪɴɪᴛʏ Cᴏᴅᴇx </> Telegram: t.me/infinity_codex
             </div>
           </CardContent>
         </Card>
