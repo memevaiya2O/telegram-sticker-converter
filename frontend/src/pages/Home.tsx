@@ -390,10 +390,33 @@ export default function Home() {
             </div>
 
             <div className="bg-secondary/50 rounded-lg p-4 text-xs text-muted-foreground leading-relaxed">
-              Output files are strictly encoded to meet Telegram's animated sticker requirements without alpha-channel clipping. Developered by Iɴꜰɪɴɪᴛʏ Cᴏᴅᴇx </> Telegram: t.me/infinity_codex
+              Output files are strictly encoded to meet Telegram's animated sticker requirements without alpha-channel clipping.
             </div>
           </CardContent>
         </Card>
+
+      {/* ── Developer & Copyright Footer ─────────────────────────────────── */}
+      <div className="mt-6 col-span-full">
+        <div className="rounded-2xl border border-border/40 bg-card/60 backdrop-blur-sm px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm">
+          <a
+            href="https://t.me/infinity_codex"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-2 font-medium text-muted-foreground hover:text-primary transition-colors duration-200"
+          >
+            <span className="text-base">⚡</span>
+            <span>
+              Developed by{" "}
+              <span className="text-primary group-hover:underline underline-offset-4">
+                I<span style={{fontVariant: "small-caps"}}>nfinity</span> C<span style={{fontVariant: "small-caps"}}>odex</span> &lt;/&gt;
+              </span>
+            </span>
+          </a>
+          <span className="text-muted-foreground/60 text-xs">
+            © {new Date().getFullYear()} Iɴꜰɪɴɪᴛʏ Cᴏᴅᴇx. All rights reserved.
+          </span>
+        </div>
+      </div>
 
       </div>
     </div>
